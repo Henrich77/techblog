@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+       
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link" href="#">Dashboard</a>
+              <a class="nav-link" href="/login">Login</a>
+              <a class="navbar-brand" href="/" style="margin-left:25rem;border: 5px black solid; font-size: 35px;font-family: 'Tilt Prism', cursive; color: green;">The Tech Blog </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/line-clamp'),
+    ],
+  }
+  ```
+-->
+<div>
+  <div>
+    <div >
+      <h2 style="margin:3rem 0rem 0rem 2rem;">From the blog</h2>
+      <p style="margin: 1rem 0rem 0rem 2rem;">Here are a few blogs that has been recently posted.</p>
+    </div>
+    <div>
+      <article style="display: flex; flex-direction: column;margin-left: 5rem;margin-top: 5rem;border: 4px black solid; border-radius: 1rem; margin-right: 5rem; background-color: lightgreen;">
+        <div style="margin-left: 4px;">
+          <time>Mar 16, 2020</time>
+          <!-- <a href="#" style="text-decoration: none; margin-left: 3rem;">Marketing</a> -->
+        </div>
+        <div >
+          <h3 style="margin-top:1rem;" >
+              Boost your conversion rate
+            </a>
+          </h3>
+          <p >Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+        </div>
+        <div >
+          <div >
+            <p>
+                Author: Michael Foster
+              </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- More posts... -->
+    </div>
+  </div>
+</div>
+
+    
+</body>
+</html>
