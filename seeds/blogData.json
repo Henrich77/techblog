@@ -1,14 +1,14 @@
 [
   {
     "name": "Apple Computers",
-    "description": "apple computers are very expensive, but they are extremely reliable."
+    "content": "apple computers are very expensive, but they are extremely reliable."
   },
   {
     "name": "AI",
-    "description": "Artificial Intelligence is taking over the world of technology "
+    "content": "Artificial Intelligence is taking over the world of technology "
   },
   {
     "name": "Computer or Phone",
-    "description": "Some people would prefer to have a phone over a computer based on the type of work that they do on a daily basis"
+    "content": "Some people would prefer to have a phone over a computer based on the type of work that they do on a daily basis"
   }
 ]
